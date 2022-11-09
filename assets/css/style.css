@@ -1,0 +1,189 @@
+* {
+	box-sizing: border-box;
+}
+/* =========================================== */
+
+/*custom font */
+@font-face {
+	font-family: genshin;
+	src: url(/assets/font/genshit.ttf);
+}
+body {
+	font-family: genshin;
+	color: #fff;
+	background-color: #1d1314;
+}
+/* =========================================== */
+
+/* Section animation */
+html {
+	scroll-snap-type: y mandatory;
+	scroll-behavior: smooth;
+}
+section {
+	scroll-snap-align: start;
+}
+
+/* =========================================== */
+
+/* Navigation Bar Style */
+.navbar {
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	transition: top 0.3s;
+}
+
+.bttn {
+	padding: 10px;
+	border: none;
+	color: #fff;
+	font-size: 1 rem;
+	background-color: #a91d16;
+	transition: 0.3s ease-in-out;
+}
+.bttn:hover {
+	color: black;
+	box-shadow: 0 5px 15px #a91d16;
+	transform: scale(1.1);
+}
+.navbar a {
+	color: #fff;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+/* =========================================== */
+
+/* Hero section style */
+#hero {
+	position: relative;
+	height: 100vh;
+	background-size: cover;
+	background-image: url(/assets/img/background-image.jpg);
+}
+/* Hu Tao Image  */
+.hutao {
+	position: absolute;
+	float: right;
+	bottom: 0;
+	right: 0;
+	transition: 0.3s ease-in-out;
+}
+.hutao {
+	transform: translate(20);
+}
+@media only screen and (max-width: 768px) {
+	.hutao {
+		width: 350px;
+		position: absolute;
+		float: none;
+		right: 0;
+	}
+}
+.pyro-element-icon {
+	background-image: url(/assets/img/pyro.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center top;
+}
+#hero h1 {
+	font-size: 6rem;
+	color: #1d1314;
+}
+#hero h2 {
+	font-size: 3rem;
+	color: #a91d16;
+}
+#hero button {
+	border-color: #1d1314;
+	padding: 10px;
+	border: none;
+	color: #fff;
+	font-size: 1.5rem;
+	background-color: #a91d16;
+}
+/* =========================================== */
+
+/* Short-Bio */
+#shortbio {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #1d1314;
+	color: #fff;
+	overflow: hidden;
+}
+
+.card-body {
+	background-color: #1d1314;
+}
+
+.cardousel {
+	background-color: #1d1314;
+	margin: 5px;
+}
+
+/* =========================================== */
+
+/* Skill section */
+#skill {
+	overflow: hidden;
+	background-color: #1d1314;
+	padding-bottom: 3rem;
+}
+
+#skill .btn {
+	background-color: #a91d16;
+	color: #fff;
+}
+/* =========================================== */
+
+/* Tutorial */
+#tutorial {
+	margin-top: 4rem;
+}
+/* =========================================== */
+
+/* Fanart */
+#fanart {
+	margin-top: 4rem;
+}
+/* =========================================== */
+
+/* Hover Image */
+.hover-image {
+	transition: 0.3s ease-in-out;
+}
+
+.hover-image:hover {
+	transform: scale(1.2);
+}
+
+/* Hover Card */
+.card {
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+	transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+		0.3s box-shadow,
+		0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+	cursor: pointer;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.cardsel {
+	padding: 1rem;
+}
+h1 {
+	color: #a91d16;
+}
+footer {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 1) 60%,
+		rgba(29, 19, 20, 1) 100%
+	);
+	padding-bottom: 4rem;
+	color: #fff;
+}
