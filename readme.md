@@ -3,14 +3,21 @@ UTS LAB 3 PEMWEB
 
 ## Feature
 
-### -Carousel
-### Cardousel (Card in Carousel)
-### Card
-### Custom Font
-### Fixed-bottom Navbar
-### Hover Animation
-### Scroll Animation
-### VA Button
+Carousel
+<br>
+Cardousel (Card in Carousel)
+<br>
+Card
+<br>
+Custom Font
+<br>
+Fixed-bottom Navbar
+<br>
+Hover Animation : Glowing Effect
+<br>
+Scroll Animation
+<br>
+VA Button : Tap to listen to Hu Tao Seiyuu
 
 ## SCREENSHOTS
 
