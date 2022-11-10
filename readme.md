@@ -1,6 +1,17 @@
 #PW3_UTS_211401021
 UTS LAB 3 PEMWEB
 
+Feature
+
+-Carousel
+-Cardousel (Card in Carousel)
+-Card
+-Custom Font
+-Fixed-bottom Navbar
+-Hover Animation
+-Scroll Animation
+-VA Button
+
 ## SCREENSHOTS
 
 ### MAIN PAGE
